@@ -43,3 +43,10 @@ let terminar = confirm("Desea finalizar la compra?");
 if (terminar) alert("Su compra se ha reaizad con exito");
 if (!terminar) alert("Esperamos volver a verlo pronto!");
 
+function preguntarAlUsuario (){
+    let conformidad = confirm("¿Esta conforme con el proceso de compra?")
+    if (conformidad) alert("¡Muchas gracias!")
+    if (!conformidad) alert("Disculpa las molestias ocasionadas")
+}
+
+preguntarAlUsuario()
